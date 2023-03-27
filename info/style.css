@@ -1,0 +1,73 @@
+header {
+    background-color: #303030;
+    color: white;
+    padding: 20px;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+}
+  
+  header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  header li {
+    float: left;
+  }
+  
+  header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  header li a:hover {
+    background-color: #000000;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+
+  ul li {
+    font-size: 16px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+
+  .education li:before {
+    content: "🎓";
+    margin-right: 5px;
+  }
+
+  @media (max-width: 600px) {
+    h1,
+    h2,
+    ul,
+    li,
+    p {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    #certificate {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: 45px;
+    }
+}
